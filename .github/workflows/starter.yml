@@ -21,7 +21,7 @@ jobs:
 
     steps:
       # Check out the code from the repository.
-      - uses: actions/check-out@v3
+      - uses: actions/checkout@v3
     
       # Set up a Node.js environment using the specified node version.
       - uses: actions/setup-node@v3
